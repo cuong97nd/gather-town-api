@@ -14,13 +14,13 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.22",
+    "prisma": "5.19.1",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "@gathertown/gather-game-client": "^38.0.1",
-    "@slack/bolt": "^3.13.1",
-    "dayjs": "^1.11.7",
+    "@gathertown/gather-game-client": "^43.0.1",
+    "@prisma/client": "5.19.1",
     "dotenv": "^16.0.3",
     "isomorphic-ws": "^4.0.1",
     "ws": "^8.2.1"
