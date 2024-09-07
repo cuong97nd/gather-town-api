@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx prisma migrate dev && yarn && APP_ENV=development nodemon src/index.ts",
+    "dev": "yarn && npx prisma migrate dev && APP_ENV=development nodemon src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "deploy": "flyctl deploy --local-only",
